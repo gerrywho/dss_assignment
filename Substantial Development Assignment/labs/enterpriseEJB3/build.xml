@@ -1,0 +1,64 @@
+<project name="MyProject" default="all" basedir=".">
+    <description>
+        Build the EJB3 based client
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="beans\src"/>
+  <property name="build" location="beans\build"/>
+  <property name="jboss_home" location="C:\Java\jboss-4.2.1.GA"/>
+  <property name="jboss.dist" location="C:\Java\jboss-4.2.1.GA\server\default\deploy"/>
+  <property name="ear" value="compactdiscs.ear"/>
+  <property name="war" value="web-app.war"/>
+  <property name="jar" value="beans.jar"/>
+  <property name="dist" location="dist"/>
+
+
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+    <mkdir dir="${dist}"/>
+
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}">
+     <classpath>
+      <pathelement path="${classpath}"/>
+      <fileset dir="${jboss_home}\server\default\lib">
+        <include name="*.jar"/>
+      </fileset>
+    </classpath>
+    </javac>
+  
+    
+    
+		<copy file="beans/META-INF/persistence.xml" todir="${build}/META-INF"/>
+		
+		    
+  </target>
+
+  <target name="dist" depends="compile">
+		<jar jarfile="${dist}\${jar}" basedir="${build}"/>
+		<jar jarfile="${dist}\${war}" basedir="web-app"/>
+		<copy file="META-INF/application.xml" todir="${dist}/META-INF"/>
+		<jar jarfile="${ear}" basedir="${dist}"/>
+  </target>
+  
+  <target name="deploy" depends="dist">
+  		<copy file="${ear}" todir="${jboss.dist}"/>
+  </target>
+  
+  <target name="clean" depends="compile">
+  		<delete dir="${build}"/>
+  		<delete dir="${dist}"/>
+  </target>
+  
+  <target name="all" depends="deploy, clean"/>
+
+</project>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.0//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_0.dtd">
+
+<faces-config>
+
+  <navigation-rule>
+    <description>
+        The rule used by the NavigationHandler to
+        determine which view must be displayed after the
+        initial view, index.jsp is processed.
+    </description>
+    <from-view-id>/welcome.jsp</from-view-id>
+    <navigation-case>
+        <description>
+            Indicates to the NavigationHandler that the response.jsp
+            view must be displayed if the Action referenced by a 
+            UICommand component on the greeting.jsp view returns 
+            the outcome "success".
+        </description>
+      <from-outcome>success</from-outcome>
+      <to-view-id>/result.jsp</to-view-id>
+    </navigation-case>
+  </navigation-rule>
+
+  <managed-bean>
+    <description>
+      This bean stores the users favourites
+    </description>
+    <managed-bean-name>FavouriteBean</managed-bean-name>
+    <managed-bean-class>com.conygre.jsf.FavouriteBean</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+    <!-- this property is not for some reason currently being set -->
+    <managed-property>
+      <property-name>defaultColour</property-name>
+      <property-class>java.lang.String</property-class>
+      <value>blue</value>
+    </managed-property>
+  </managed-bean>
+
+
+</faces-config>

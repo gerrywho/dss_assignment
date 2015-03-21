@@ -1,0 +1,1 @@
+set classpath=%classpath%;%CATALINA_HOME%\common\lib\servlet-api.jar

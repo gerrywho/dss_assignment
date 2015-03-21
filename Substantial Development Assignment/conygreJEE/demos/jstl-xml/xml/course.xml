@@ -1,0 +1,151 @@
+<course xmlns="www.conygre.com/v1/outline" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.conygre.com/v1/outline
+http://www.conygre.com/schemas/courseOutline.xsd" code="CONJSP1">
+	<category>J2EE</category>
+	<category>Java</category>
+	<title>Developing Web Interfaces Using JavaServer Pages 2.0</title>
+	<outline>This course, written by Nick Todd, the author of JavaServer Pages 2.0 Developers Handbook from Sams  Publishing, teaches you how to create Web interfaces using JavaServer Pages technology. It covers the very latest technologies that are now available to the JSP author, including the JSP Standard Tag Library 1.1, Struts, JavaServer Faces, and the JSP Expression Language as well as JSP architecture, working with JavaBeans, and how to interface with Enterprise JavaBeans and Web services. </outline>
+	<duration>4</duration>
+	<objectives>
+		<objective>Identify the core components of a Java Web application </objective>
+		<objective>Write and deploy a Java Servlet  </objective>
+		<objective>Process form data from a Java Servlet  </objective>
+		<objective>Understand the JSP lifecycle </objective>
+		<objective>Use scriptlets , expressions, and standard actions in a JSP </objective>
+		<objective>Use the JSP Standard Tag Library (JSTL) </objective>
+		<objective>Integrate XML into a Web application </objective>
+		<objective>Use the JSP Expression Language (EL) </objective>
+		<objective>Add appropriate content metadata to JSP and other content items </objective>
+		<objective>Develop interfaces to Web services </objective>
+		<objective>Develop interfaces to Enterprise Java Beans </objective>
+		<objective>Identify some of the architectural, design, and implementation considerations when working with JSP technology </objective>
+	</objectives>
+	<who>Web developers who need to be able to build enterprise Java based Web applications using JSP. </who>
+	<layout>This course combines lectures with practical exercises that help the delegates to put what they have learned on the course into practice. The exercises specifically build on what has been recently taught and are built up as the course progresses. </layout>
+	<prerequisites>
+		<prereq>Delegates must be familiar with XML, and they must also be familiar with Web technologies such as HTML and HTTP. Java programming experience is desirable but not essential for this course. If you do not have Java, then some scripting experience would be extremely advantageous. </prereq>
+	</prerequisites>
+	<contents>
+		<chapter>
+			<title>Introduction to Web Applications</title>
+			<objective>
+							Java Servlets  </objective>
+			<objective>
+							JavaServer Pages </objective>
+			<objective>
+							JavaBeans </objective>
+			<objective>
+							Tag Libraries </objective>
+		</chapter>
+		<chapter>
+			<title>Introduction to Java Servlets  </title>
+			<objective>
+							What is a Java Servlet  </objective>
+			<objective>
+							Java Servlet  lifecycle </objective>
+			<objective>
+							Introduction to the Servlet  API </objective>
+			<objective>
+							How to develop and deploy Java Servlets  </objective>
+		</chapter>
+		<chapter>
+			<title>More on Java Servlets  </title>
+			<objective>
+							Processing form data from Java servlets  </objective>
+			<objective>
+							Session tracking from Java servlets  </objective>
+		</chapter>
+		<chapter>
+			<title>Java Server Pages </title>
+			<objective>
+							What is a Java Server Page? </objective>
+			<objective>
+							Directives in JSP </objective>
+			<objective>
+							Scriptlets  in JSP </objective>
+			<objective>
+							Scripting Elements in JSP </objective>
+			<objective>
+							Standard Actions in JSP </objective>
+		</chapter>
+		<chapter>
+			<title>The Expression Language (EL)</title>
+			<objective>
+							EL Syntax </objective>
+			<objective>
+							EL Functions </objective>
+			<objective>
+							EL Operators </objective>
+		</chapter>
+		<chapter>
+			<title>JavaBeans  and  JavaServer Pages </title>
+			<objective>
+							What are JavaBeans </objective>
+			<objective>Using JavaBeans with JSP </objective>
+			<objective>
+							JSP and Servlet  interaction </objective>
+			<objective>
+							Web application architecture </objective>
+		</chapter>
+		<chapter>
+			<title>Introducing the JSP Standard Tag Library </title>
+			<objective>
+							The Core Actions </objective>
+			<objective>
+							Using the EL in Tags </objective>
+		</chapter>
+		<chapter>
+			<title>JSP and XML </title>
+			<objective>
+							The XML Actions </objective>
+			<objective>
+							Invoking Web services from Web applications </objective>
+		</chapter>
+		<chapter>
+			<title>JSP and Databases </title>
+			<objective>
+							JDBC Overview </objective>
+			<objective>
+							The SQL Actions </objective>
+			<objective>
+							Configuring Data Sources in Tomcat </objective>
+			<objective>
+							Delegation and using JavaBeans </objective>
+		</chapter>
+		<chapter>
+			<title>Web Application Frameworks </title>
+			<objective> Jakarta Struts </objective>
+			<objective>
+							JavaServer Faces </objective>
+			<objective>
+							Cocoon </objective>
+			<objective>
+							Other Frameworks </objective>
+		</chapter>
+		<chapter>
+			<title>Creating Tag Libraries </title>
+			<objective>
+							Creating tags </objective>
+			<objective>
+							Deploying tags </objective>
+		</chapter>
+		<chapter>
+			<title>
+Enterprise Java Beans and JSP </title>
+			<objective>
+							Overview of EJB </objective>
+			<objective>
+							Invoking EJBs  from a Web application </objective>
+			<objective>
+							Design considerations </objective>
+		</chapter>
+		<chapter>
+			<title>Securing Web Applications </title>
+			<objective>
+							Security options for Web applications </objective>
+			<objective>
+							eGIF specifications for application security </objective>
+			<objective>
+							Configuring security </objective>
+		</chapter>
+	</contents>
+</course>

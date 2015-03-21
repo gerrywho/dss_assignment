@@ -1,0 +1,94 @@
+<project name="Hibernate with EJB3.0 and Session bean" default="all" basedir=".">
+    <description>
+        Build the EJB3.0 session bean that uses EJB3.0 persistence
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="jboss_home" location="C:\Java\jboss-5.1.0.GA"/>
+  <property name="jboss.dist" location="C:\Java\jboss-5.1.0.GA\server\default\deploy"/>
+  <property name="ear" value="compactdiscshibernate.ear"/>
+  <property name="war" value="web-app.war"/>
+  <property name="jar" value="beans.jar"/>
+  <property name="dist" location=".\dist"/>
+
+
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+    <mkdir dir="${dist}"/>
+
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}">
+    
+     <classpath>
+      <pathelement path="${classpath}"/>
+      <fileset dir="${jboss_home}\common\lib">
+        <include name="*.jar"/>
+      </fileset>
+    </classpath>
+
+    </javac>
+    
+		    
+  </target>
+  
+  <target name="compileClient" depends="compile">
+    <javac srcdir="client" destdir="client">
+    
+     <classpath>
+      <pathelement path="${classpath}"/>
+      <pathelement path="${build}"/>
+      <fileset dir="${jboss_home}\server\default\lib">
+        <include name="*.jar"/>
+      </fileset>
+    </classpath>
+    </javac>
+  </target>
+
+  <target name="runClient" >
+    <java classname="SessionBeanClient" fork="true">
+    
+     <classpath>
+      <pathelement path="client"/>
+      <pathelement path="${build}"/>
+      <fileset dir="${jboss_home}\client">
+        <include name="*.jar"/>
+      </fileset>
+    </classpath>
+
+    </java>
+
+  
+  </target>
+
+
+	<target name="copy" depends="compile">
+		<copy file="META-INF/persistence.xml" todir="${build}/META-INF"/>
+		
+	</target>
+
+  <target name="dist" depends="copy">
+		<jar jarfile="${dist}\${jar}" basedir="build"/>
+  </target>
+  
+  <target name="deploy" depends="dist">
+  		<copy file="${dist}\${jar}" todir="${jboss.dist}"/>
+  </target>
+  
+  <target name="clean" depends="compile">
+  		<!--<delete dir="${build}"/>-->
+  		<delete dir="${dist}"/>
+  </target>
+  
+  <target name="all" depends="deploy, clean"/>
+
+</project>
+

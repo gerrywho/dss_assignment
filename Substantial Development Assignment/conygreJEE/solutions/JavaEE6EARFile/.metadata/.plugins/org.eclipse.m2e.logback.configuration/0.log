@@ -1,0 +1,245 @@
+2014-10-27 16:25:45,150 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ear\pom.xml.
+2014-10-27 16:25:45,493 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-web\pom.xml.
+2014-10-27 16:25:45,650 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ejb\pom.xml.
+2014-10-27 16:25:47,876 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CompactDiscEnterpriseApp-ejb/src/main/java
+2014-10-27 16:25:47,876 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CompactDiscEnterpriseApp-ejb/src/main/resources
+2014-10-27 16:25:47,876 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CompactDiscEnterpriseApp-ejb/src/test/java
+2014-10-27 16:25:48,392 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ear\pom.xml.
+2014-10-27 16:25:48,502 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ejb\pom.xml.
+2014-10-27 16:25:48,611 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-web\pom.xml.
+2014-10-27 16:25:49,150 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CompactDiscEnterpriseApp-web/src/main/java
+2014-10-27 16:25:49,150 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CompactDiscEnterpriseApp-web/src/main/resources
+2014-10-27 16:25:49,150 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CompactDiscEnterpriseApp-web/src/test/java
+2014-10-27 16:25:50,443 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 5 sec
+2014-10-27 16:25:52,275 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2014-10-27 16:25:54,761 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ear\pom.xml.
+2014-10-27 16:25:54,840 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2014-10-27 16:25:55,293 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:25:55,308 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ear\src\main\resources
+2014-10-27 16:25:56,495 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ejb\pom.xml.
+2014-10-27 16:25:56,644 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:25:56,660 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-10-27 16:25:56,675 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:25:56,675 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ejb\src\test\resources
+2014-10-27 16:25:57,176 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:25:57,191 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-10-27 16:25:57,207 [Worker-7] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:25:57,207 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-ejb\src\test\resources
+2014-10-27 16:26:04,301 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-web\pom.xml.
+2014-10-27 16:26:04,504 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:26:04,504 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-10-27 16:26:04,504 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2014-10-27 16:26:04,504 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE7Workspace\CompactDiscEnterpriseApp-web\src\test\resources
+2014-12-10 15:02:54,361 [Worker-7] ERROR o.e.m.e.x.i.MarkerLocationService - Error checking for warnings
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.checkVarious(MarkerLocationService.java:561) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.addEditorHintMarkers(MarkerLocationService.java:240) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.addEditorHintMarkers(MarkerUtils.java:63) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:662) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:897) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:653) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:374) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:334) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:92) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1301) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:90) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2014-12-10 15:02:54,421 [Worker-7] ERROR o.e.m.e.x.i.MarkerLocationService - Error checking for warnings
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.checkVarious(MarkerLocationService.java:561) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.addEditorHintMarkers(MarkerLocationService.java:240) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.addEditorHintMarkers(MarkerUtils.java:63) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:662) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:897) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:653) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:374) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:334) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:92) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1301) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:90) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2014-12-10 15:02:54,510 [Worker-7] ERROR o.e.m.e.x.i.MarkerLocationService - Error checking for warnings
+java.lang.NullPointerException: null
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.checkVarious(MarkerLocationService.java:561) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.editor.xml.internal.MarkerLocationService.addEditorHintMarkers(MarkerLocationService.java:240) [org.eclipse.m2e.editor.xml_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.markers.MarkerUtils.addEditorHintMarkers(MarkerUtils.java:63) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:662) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$4.call(ProjectRegistryManager.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:897) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readMavenProjectFacade(ProjectRegistryManager.java:653) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:374) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:334) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:92) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:161) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:137) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:89) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1301) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:90) [org.eclipse.m2e.core_1.4.1.20140328-1905.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53) [org.eclipse.core.jobs_3.5.300.v20130429-1813.jar:na]
+2014-12-10 15:02:54,632 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:55,692 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.4/maven-ear-plugin-2.4.jar
+2014-12-10 15:02:55,699 [New I/O client worker #1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.4/maven-ear-plugin-2.4.jar
+2014-12-10 15:02:55,840 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:02:56,725 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:56,926 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.jar
+2014-12-10 15:02:56,928 [New I/O client worker #2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.jar
+2014-12-10 15:02:56,931 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:02:56,936 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:02:56,961 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:02:57,005 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:57,762 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.1/maven-ejb-plugin-2.1.jar
+2014-12-10 15:02:57,764 [New I/O client worker #3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.1/maven-ejb-plugin-2.1.jar
+2014-12-10 15:02:57,882 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:57,971 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.pom
+2014-12-10 15:02:57,973 [New I/O client worker #4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/2.0.2/maven-compiler-plugin-2.0.2.pom
+2014-12-10 15:02:58,026 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:58,141 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/8/maven-plugins-8.pom
+2014-12-10 15:02:58,143 [New I/O client worker #5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/8/maven-plugins-8.pom
+2014-12-10 15:02:58,212 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:58,300 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.4/maven-ear-plugin-2.4.pom
+2014-12-10 15:02:58,302 [New I/O client worker #6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ear-plugin/2.4/maven-ear-plugin-2.4.pom
+2014-12-10 15:02:58,355 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:58,501 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/14/maven-plugins-14.pom
+2014-12-10 15:02:58,505 [New I/O client worker #7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/14/maven-plugins-14.pom
+2014-12-10 15:02:58,652 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:58,807 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.pom
+2014-12-10 15:02:58,809 [New I/O client worker #8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.pom
+2014-12-10 15:02:58,861 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:58,947 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.5.3/plexus-compiler-1.5.3.pom
+2014-12-10 15:02:58,948 [New I/O client worker #9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/1.5.3/plexus-compiler-1.5.3.pom
+2014-12-10 15:02:59,020 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:59,117 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.pom
+2014-12-10 15:02:59,118 [New I/O client worker #10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.pom
+2014-12-10 15:02:59,168 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:59,248 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.pom
+2014-12-10 15:02:59,250 [New I/O client worker #11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.pom
+2014-12-10 15:02:59,302 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:02:59,427 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.5.3/plexus-compilers-1.5.3.pom
+2014-12-10 15:02:59,431 [New I/O client worker #12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/1.5.3/plexus-compilers-1.5.3.pom
+2014-12-10 15:03:00,367 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:00,450 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+2014-12-10 15:03:00,451 [New I/O client worker #13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.5/plexus-utils-1.0.5.pom
+2014-12-10 15:03:00,518 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:00,785 [New I/O client worker #14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.jar
+2014-12-10 15:03:00,786 [New I/O client worker #14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/1.5.3/plexus-compiler-manager-1.5.3.jar
+2014-12-10 15:03:00,853 [New I/O client worker #14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.jar
+2014-12-10 15:03:00,854 [New I/O client worker #14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/1.5.3/plexus-compiler-javac-1.5.3.jar
+2014-12-10 15:03:00,920 [New I/O client worker #14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.jar
+2014-12-10 15:03:00,921 [New I/O client worker #14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.5.3/plexus-compiler-api-1.5.3.jar
+2014-12-10 15:03:01,024 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+2014-12-10 15:03:01,464 [New I/O client worker #14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.0.4/plexus-utils-1.0.4.jar
+2014-12-10 15:03:01,632 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:01,637 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/pom.xml.
+2014-12-10 15:03:01,638 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:01,657 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:01,724 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-api/6.0/javaee-api-6.0.pom
+2014-12-10 15:03:01,726 [New I/O client worker #15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/javaee-api/6.0/javaee-api-6.0.pom
+2014-12-10 15:03:02,332 [Worker-7] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:02,435 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:02,908 [New I/O client worker #17-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.jar
+2014-12-10 15:03:02,911 [New I/O client worker #17-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.6/plexus-interpolation-1.6.jar
+2014-12-10 15:03:03,663 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-api/6.0/javaee-api-6.0.jar
+2014-12-10 15:03:03,951 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.jar
+2014-12-10 15:03:04,541 [New I/O client worker #17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.7/plexus-utils-1.5.7.jar
+2014-12-10 15:03:04,839 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:04,864 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:05,027 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:05,053 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/src/main/resources
+2014-12-10 15:03:05,192 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/pom.xml.
+2014-12-10 15:03:05,198 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:05,200 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:05,416 [New I/O client worker #19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-api/6.0/javaee-api-6.0.jar
+2014-12-10 15:03:05,605 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:03:05,608 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:05,655 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:05,759 [Worker-0] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:05,892 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.1/maven-ejb-plugin-2.1.pom
+2014-12-10 15:03:05,894 [New I/O client worker #20-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-ejb-plugin/2.1/maven-ejb-plugin-2.1.pom
+2014-12-10 15:03:06,061 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:06,090 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-12-10 15:03:06,097 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:06,123 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/src/test/resources
+2014-12-10 15:03:07,049 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.conygre.training.ear:CompactDiscEnterpriseApp-web:war:1.0-SNAPSHOT is missing, no dependency information available
+2014-12-10 15:03:07,087 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:07,111 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/src/main/resources
+2014-12-10 15:03:09,113 [New I/O client worker #16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/javaee-api/6.0/javaee-api-6.0.jar
+2014-12-10 15:03:10,216 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:03:10,237 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/pom.xml.
+2014-12-10 15:03:10,267 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/pom.xml.
+2014-12-10 15:03:10,268 [Worker-2] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:10,363 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.pom
+2014-12-10 15:03:10,365 [New I/O client worker #21-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.pom
+2014-12-10 15:03:10,465 [Worker-2] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:10,875 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar
+2014-12-10 15:03:10,908 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:10,943 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-12-10 15:03:10,950 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:10,981 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/src/test/resources
+2014-12-10 15:03:11,106 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/pom.xml.
+2014-12-10 15:03:11,113 [Worker-12] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:11,114 [Worker-12] INFO  c.n.h.c.p.n.NettyAsyncHttpProvider - Number of application's worked threads is 16
+2014-12-10 15:03:12,819 [New I/O client worker #24-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo.maven.apache.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar
+2014-12-10 15:03:13,884 [New I/O client worker #22-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar
+2014-12-10 15:03:14,768 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:03:14,796 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2014-12-10 15:03:15,882 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:15,910 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-12-10 15:03:15,911 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:15,937 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/src/test/resources
+2014-12-10 15:03:15,939 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of CompactDiscEnterpriseApp-web
+2014-12-10 15:03:15,940 [Worker-12] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for CompactDiscEnterpriseApp-web
+2014-12-10 15:03:15,944 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,123 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ear:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/pom.xml.
+2014-12-10 15:03:16,141 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-ejb:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/pom.xml.
+2014-12-10 15:03:16,161 [Worker-0] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.conygre.training.ear:CompactDiscEnterpriseApp-web:1.0-SNAPSHOT @ /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/pom.xml.
+2014-12-10 15:03:16,218 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2014-12-10 15:03:16,393 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,420 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/src/main/resources
+2014-12-10 15:03:16,457 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,488 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-12-10 15:03:16,490 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,517 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/src/test/resources
+2014-12-10 15:03:16,544 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,570 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-12-10 15:03:16,574 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:03:16,600 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/src/test/resources
+2014-12-10 15:09:32,185 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:09:32,210 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2014-12-10 15:09:32,212 [Worker-16] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:09:32,237 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/src/test/resources
+2014-12-10 15:20:53,975 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb
+2014-12-10 15:20:53,975 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-12-10 15:20:56,747 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:20:56,773 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2014-12-10 15:20:56,775 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:20:56,800 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ejb/src/test/resources
+2014-12-10 15:21:06,016 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web
+2014-12-10 15:21:06,016 [Worker-16] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-12-10 15:21:08,903 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:21:08,929 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2014-12-10 15:21:08,931 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:21:08,956 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-web/src/test/resources
+2014-12-10 15:21:17,224 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear
+2014-12-10 15:21:17,224 [Worker-30] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2014-12-10 15:21:19,183 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (US-ASCII actually) to copy filtered resources, i.e. build is platform dependent!
+2014-12-10 15:21:19,209 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/CompactDiscEnterpriseApp-ear/src/main/resources

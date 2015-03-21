@@ -1,0 +1,53 @@
+<project default="schemaupdate">
+	<property name="src" location="src"/>
+	<property name="build" location="bin"/>
+	<!-- a log4j property needs to be added here -->
+
+
+	<!-- added property called hibernate.home -->
+	<property name="hibernate.home" location="C:\Java\hibernate-3.2"/>
+
+
+	<!-- hibernate.classpath path element -->
+	<path id="hibernate.classpath">
+		<fileset dir="${hibernate.home}/lib" includes="**/*.jar"/>
+		<pathelement location="${hibernate.home}/hibernate3.jar"/>
+		<pathelement location="${build}"/>
+		<pathelement location="."/>
+			<!-- a log4j jar pathelement needs to be added here -->
+		
+	</path>
+	
+
+	<!-- add the taskdef element for the schemaexport task using the predefined hibernate.classpath-->
+
+
+	
+	
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+	</target>
+	<target name="compile" depends="init" description="compile the source ">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}"/>
+	</target>
+	
+	
+	<!-- add a schemaexport target here -->
+	
+	
+	
+	
+	
+	
+	  
+	<target name="compileClient">
+		<javac srcdir="." destdir="." classpathref="hibernate.classpath"/>
+	</target>
+	<target name="runClient" depends="compileClient">
+		<java fork="true" classpathref="hibernate.classpath" classname="MyHibernateClient"/>
+	</target>
+</project>

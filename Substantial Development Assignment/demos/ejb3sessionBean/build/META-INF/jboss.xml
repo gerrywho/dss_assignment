@@ -1,0 +1,10 @@
+<!DOCTYPE jboss PUBLIC "-//JBoss//DTD JBOSS 3.0//EN"
+"http://www.jboss.org/j2ee/dtd/jboss_3_0.dtd">
+<jboss>
+	<enterprise-beans>
+		<session>
+			<ejb-name>MathBean</ejb-name>
+			<jndi-name>jboss/maths/MyMathBean</jndi-name>
+		</session>
+	</enterprise-beans>
+</jboss>

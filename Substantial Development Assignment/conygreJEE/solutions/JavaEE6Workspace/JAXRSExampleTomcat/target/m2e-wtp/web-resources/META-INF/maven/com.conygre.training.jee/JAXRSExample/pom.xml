@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>war</packaging>
+  <groupId>com.conygre.training.jee</groupId>
+  <artifactId>JAXRSExample</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  <!--  for JBoss and Wildfly remove all jersey dependencies and replace
+  with this one dependency. You will also need to update web.xml. 
+  <dependency>
+            <groupId>org.jboss.spec</groupId>
+            <artifactId>jboss-javaee-6.0</artifactId>
+            <version>1.0.0.Final</version>
+            <type>pom</type>
+            <scope>provided</scope>
+   </dependency>
+  
+  
+  
+   -->
+  
+  
+  	<dependency>
+  		<groupId>com.sun.jersey</groupId>
+  		<artifactId>jersey-server</artifactId>
+  		<version>1.13</version>
+  	</dependency>
+  	 <dependency>
+      <groupId>com.sun.jersey</groupId>
+      <artifactId>jersey-servlet</artifactId>
+      <version>1.13</version>
+ </dependency>
+      <dependency>
+          <groupId>com.sun.jersey</groupId>
+          <artifactId>jersey-json</artifactId>
+          <version>1.13</version>
+      </dependency>
+<!--  added for CORS -->
+<dependency>
+<groupId>com.thetransactioncompany</groupId>
+<artifactId>cors-filter</artifactId>
+<version>2.1</version>
+</dependency>
+  </dependencies>
+</project>

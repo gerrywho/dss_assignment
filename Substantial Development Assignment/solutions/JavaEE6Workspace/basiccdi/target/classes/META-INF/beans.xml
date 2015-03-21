@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<beans xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://jboss.org/schema/cdi/beans_1_0.xsd">
+	<!-- <alternatives> <class>com.conygre.beans.Dog</class> <class>com.conygre.beans.Motorcycle</class> 
+		<class>com.aviva.cdi.Bike</class> </alternatives> -->
+	<!-- 	<decorators> <class>com.conygre.beans.decorators.UpperCasePrintDecorator</class> 
+		</decorators> 
+	 -->	
+	
+
+	<!-- <interceptors>
+		<class>com.conygre.beans.interceptors.LookoutInterceptor</class>
+	</interceptors>
+	  -->
+
+
+	<alternatives>
+		<class>com.conygre.cdi.trl.Mole</class>
+		<class>com.citi.cdi.DieselEngine</class>
+		<!--  <class>com.jbi.training.VirginMedia</class>-->
+		<class>com.conygre.beans.Dog</class>
+	</alternatives>
+
+</beans>

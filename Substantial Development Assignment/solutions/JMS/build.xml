@@ -1,0 +1,47 @@
+<project name="MyProject" default="compile" basedir=".">
+	<description>
+        Compile and run a messaging demo
+    </description>
+	<!-- set global properties for this build -->
+	<property name="src" location="."/>
+	<property name="build" location="."/>
+	<property name="jboss.dist" location="C:\Java\jboss-4.2.3.GA"/>
+	
+<!--	C:\Java\jboss-6.0.0.M1    C:\Java\jboss-4.2.3.GA   C:\Java\jboss-6.0.0.20100721-M4-->
+	<path id="client.path">
+		<fileset dir="${jboss.dist}\client">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	<target name="compile">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}">
+			<classpath>
+				<fileset dir="${jboss.dist}\client">
+					<include name="*.jar"/>
+				</fileset>
+				<pathelement location="."/>
+			</classpath>
+		</javac>
+	</target>
+	<target name="runProducer">
+		<java classname="MessageProducer" fork="true">
+			<classpath>
+				<fileset dir="${jboss.dist}\client">
+					<include name="*.jar"/>
+				</fileset>
+				<pathelement location="."/>
+			</classpath>
+		</java>
+	</target>
+	<target name="runConsumer">
+		<java classname="MessageConsumer" fork="true">
+			<classpath>
+				<fileset dir="${jboss.dist}\client">
+					<include name="*.jar"/>
+				</fileset>
+				<pathelement location="."/>
+			</classpath>
+		</java>
+	</target>
+</project>

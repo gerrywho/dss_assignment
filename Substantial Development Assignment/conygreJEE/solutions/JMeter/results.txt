@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="0" lt="0" ts="1176232198875" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-1" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 8 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232198875" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-3" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 2 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199031" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199031" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-8" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199250" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199250" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-8" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199359" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 8 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199359" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-8" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 6 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199453" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-10" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199453" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-12" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199484" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-17" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199484" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-15" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199500" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-2" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199500" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-13" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199578" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-19" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 6 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199781" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-12" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199781" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-10" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199859" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-18" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232199859" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-16" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200515" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-16" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200515" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-5" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200578" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-15" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 11 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200578" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-4" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 11 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-16" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-7" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200906" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-17" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200906" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-4" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200937" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-20" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232200937" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-9" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201203" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-10" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201203" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-12" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201218" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201218" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-19" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201828" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-3" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201828" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-18" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232201859" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-10" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 6 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202156" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-18" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202156" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-3" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202156" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-7" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202156" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-5" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202562" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-2" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 11 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202562" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-11" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 11 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202750" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232202750" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-19" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203296" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203296" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-8" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203437" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-2" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203437" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-13" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203562" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-20" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203562" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-9" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 13 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-6" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 10 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232203625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-19" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 10 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232204015" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-5" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 5 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232204234" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-16" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232204234" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-18" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205218" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-7" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205218" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-5" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205281" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-4" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 0 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205281" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-17" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 14 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-11" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+<httpSample t="0" lt="0" ts="1176232205625" s="false" lb="HTTP Request" rm="OK" tn="Thread Group 1-13" dt="text">
+  <assertionResult>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed, text expected to contain /7 out of 8/</failureMessage>
+  </assertionResult>
+  <responseData class="java.lang.String">&lt;html&gt;&#x0D;
+&lt;head&gt;&#x0D;
+&lt;title&gt;Your Java Test Results&lt;/title&gt;&#x0D;
+&lt;/head&gt;&#x0D;
+&lt;body&gt;&#x0D;
+&lt;h1&gt;Your Java Test Results&lt;/h1&gt;&#x0D;
+You scored 12 out of 8&#x0D;
+&lt;/body&gt;&#x0D;
+&lt;/html&gt;&#x0D;
+</responseData>
+</httpSample>
+
+</testResults>

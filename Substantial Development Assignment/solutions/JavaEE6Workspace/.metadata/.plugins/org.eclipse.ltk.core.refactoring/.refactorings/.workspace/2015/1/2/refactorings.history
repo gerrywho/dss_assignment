@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;BasicJMS&apos; to &apos;BasicJMS1&apos;" description="Rename resource &apos;BasicJMS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/BasicJMS" name="BasicJMS1" stamp="1420573416906" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;JAXRSExample&apos; to &apos;JAXRSExampleTomcat&apos;" description="Rename resource &apos;JAXRSExample&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JAXRSExample" name="JAXRSExampleTomcat" stamp="1420573507581" updateReferences="true"/>
+</session>

@@ -1,0 +1,16 @@
+grant  {
+  /*
+   * This permission is used to allow applications to connect
+   * to the router
+   *
+   * Replace ``*'' with an IP address or a host name if you want to restrict
+   * application access to a specific host.  Using wildcarding such
+   * as *.sun.com is also acceptable.
+   *
+   * The below permissions are for connecting to the router using any valid
+   * JMQ subnet number (0-999).
+   */
+
+  permission java.net.SocketPermission "*:9312-10311","connect,resolve";
+};
+

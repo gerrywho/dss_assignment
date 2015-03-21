@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MyFirstProject" basedir="." default="run">
+
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+
+	<target name="init">
+		<mkdir dir="${build}"/>
+	</target>
+
+
+	<target name="compile" depends="init">
+		<javac srcdir="${src}" destdir="${build}"/>
+	</target>
+
+	<target name="run" depends="compile">
+		<java classname="HelloWorld" classpath="${build}" fork="true"/>
+	</target>
+
+
+</project>

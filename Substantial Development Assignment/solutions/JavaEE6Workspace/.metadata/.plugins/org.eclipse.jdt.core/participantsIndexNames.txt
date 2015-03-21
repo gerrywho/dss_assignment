@@ -1,0 +1,7 @@
+INDEX VERSION 1.127
+C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE6Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\292574702.index
+\LoggingExample\src\main\java
+C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE6Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2014353636.index
+\LoggingExample\src\main\java
+C:\Users\Nick Todd\Dropbox\Conygre\conygreJ2EE\solutions\JavaEE6Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3866770040.index
+\LoggingExample\src\main\java

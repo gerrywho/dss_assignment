@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+	"http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+	<servlet>
+		<servlet-name>mainWithParameters</servlet-name>
+		<jsp-file>/protected/mainWithParameters.jsp</jsp-file>
+	
+		<security-role-ref>
+			<role-name>visitor</role-name>
+			<role-link>guest</role-link>
+		</security-role-ref>
+	
+		<security-role-ref>
+			<role-name>registeredUser</role-name>
+			<role-link>customer</role-link>
+		</security-role-ref>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>mainWithParameters</servlet-name>
+		<url-pattern>/protected/mainWithParameters</url-pattern>
+	</servlet-mapping>
+	
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Protected Area</web-resource-name>
+			<url-pattern>/protected/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>guest</role-name>
+			<role-name>customer</role-name>
+		</auth-constraint>
+	</security-constraint>
+	
+
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/login.html</form-login-page>
+			<form-error-page>/loginFailed.html</form-error-page>
+		</form-login-config>
+	</login-config>
+</web-app>

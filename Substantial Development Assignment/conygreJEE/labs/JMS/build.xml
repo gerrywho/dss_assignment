@@ -1,0 +1,100 @@
+<project name="MyProject" default="compile" basedir=".">
+	<description>
+        Compile and run a messaging demo
+    </description>
+	<!-- set global properties for this build -->
+	<property name="src" location="."/>
+	<property name="build" location="."/>
+	<property name="jboss.dist" location="c:/Java/jboss-3.2.3"/>
+	
+	
+	 <path id="client.path">
+        <pathelement location="${jboss.dist}/client/concurrent.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jaas.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-common-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossha-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossmq-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-system-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-j2ee.jar"/>
+        <pathelement location="${jboss.dist}/client/jbosssx-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jsr77.jar"/>
+        <pathelement location="${jboss.dist}/client/jmx-rmi-connector-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jnet.jar"/>
+        <pathelement location="${jboss.dist}/client/jnp-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jcert.jar"/>
+        <pathelement location="${jboss.dist}/client/jsse.jar"/>
+        <pathelement location="${jboss.dist}/client/log4j.jar"/>
+        <pathelement location="${jboss.dist}/lib/crimson.jar"/>
+        <pathelement location="${build.classes.dir}"/>
+    </path>
+
+	
+	
+	
+	<target name="compile">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}">
+			<classpath>
+				<pathelement path="${classpath}"/>
+				<fileset dir="${jboss.dist}\server\default\lib">
+					<include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+	<target name="runProducer">
+		<java classname="MessageProducer" fork="true">
+			<classpath>
+			       <pathelement location="${jboss.dist}/client/concurrent.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jaas.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-common-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossha-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossmq-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-system-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-j2ee.jar"/>
+        <pathelement location="${jboss.dist}/client/jbosssx-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jsr77.jar"/>
+        <pathelement location="${jboss.dist}/client/jmx-rmi-connector-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jnet.jar"/>
+        <pathelement location="${jboss.dist}/client/jnp-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jcert.jar"/>
+        <pathelement location="${jboss.dist}/client/jsse.jar"/>
+        <pathelement location="${jboss.dist}/client/log4j.jar"/>
+        <pathelement location="${jboss.dist}/lib/crimson.jar"/>
+        <pathelement location="${build.classes.dir}"/>
+				<pathelement path="."/>
+			</classpath>
+		</java>
+	</target>
+	
+	<target name="runConsumer">
+		<java classname="MessageConsumer" fork="true">
+			<classpath>
+			       <pathelement location="${jboss.dist}/client/concurrent.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jaas.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-common-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossha-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jbossmq-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-system-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-j2ee.jar"/>
+        <pathelement location="${jboss.dist}/client/jbosssx-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jboss-jsr77.jar"/>
+        <pathelement location="${jboss.dist}/client/jmx-rmi-connector-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jnet.jar"/>
+        <pathelement location="${jboss.dist}/client/jnp-client.jar"/>
+        <pathelement location="${jboss.dist}/client/jcert.jar"/>
+        <pathelement location="${jboss.dist}/client/jsse.jar"/>
+        <pathelement location="${jboss.dist}/client/log4j.jar"/>
+        <pathelement location="${jboss.dist}/lib/crimson.jar"/>
+        <pathelement location="${build.classes.dir}"/>
+				<pathelement path="."/>
+			</classpath>
+		</java>
+	</target>
+	
+
+	
+</project>

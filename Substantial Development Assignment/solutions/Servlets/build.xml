@@ -1,0 +1,25 @@
+<project>
+	<property name="src" location="WEB-INF\classes"/>
+	<property name="build" location="WEB-INF\classes"/>
+	<property name="tomcat.home" location="D:\Java\apache-tomcat-5.5.16"/>
+
+	<path id="tomcat.classpath">
+		<fileset dir="${tomcat.home}\common\lib">
+			<include name="*.jar"/>
+		</fileset>
+		</path>
+
+
+	<target name="compile">
+		<javac srcdir="${src}" destdir="${build}" classpathref="tomcat.classpath"/>
+	</target>
+	
+	<target name="dist" depends="compile">
+			<jar jarfile="mywebapp.war" basedir="."/>
+	</target>
+
+	<target name="deploy" depends="dist">
+		<copy file="mywebapp.war" toDir="${tomcat.home}\webapps"/>
+	</target>
+
+</project>

@@ -1,0 +1,74 @@
+<project default="schemaexport">
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+	<!-- a log4j property needs to be added here -->
+	<property name="log4j" location="C:\Java\logging-log4j-1.2.13"/>
+
+	<!-- add a property called hibernate.home -->
+	<property name="hibernate.home" location="C:\Java\hibernate-3.2"/>
+	<property name="hibernate.annotations.home" location="C:\Java\hibernate-annotations-3.3.0.GA"/>
+
+
+	<!-- add a hibernate.classpath path element -->
+	<path id="hibernate.classpath">
+		<fileset dir="${hibernate.home}/lib" includes="**/*.jar"/>
+		<pathelement location="${hibernate.home}/hibernate3.jar"/>
+		<pathelement location="${build}"/>
+		<pathelement location="."/>
+		<!-- a log4j pathelement needs to be added here -->
+		<pathelement location="${log4j}\dist\lib\log4j-1.2.13.jar"/>
+		<!-- database driver also required here -->
+		 <pathelement location="C:\Java\mysql-connector-java-3.1.12\mysql-connector-java-3.1.12-bin.jar"/>
+		
+		<!-- add the annotations jars as well -->
+		<fileset dir="${hibernate.annotations.home}/lib" includes="**/*.jar"/>
+		<pathelement location="${hibernate.annotations.home}/hibernate-annotations.jar"/>
+		
+		
+	</path>
+	
+
+	<!-- add the taskdef element for the schemaexport task-->
+	<taskdef name="schemaexport" classname="org.hibernate.tool.hbm2ddl.SchemaExportTask" classpathref="hibernate.classpath"/>
+
+	
+	
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+	</target>
+	<target name="compile" depends="init" description="compile the source ">
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" classpathref="hibernate.classpath"/>
+	</target>
+	
+	
+	<!-- add a schemaexport target here -->
+	<target name="schemaexport">
+	
+		<schemaexport 
+			properties="hibernate.properties" 
+			quiet="no" 
+			output="file.sql" 
+			create="true" 
+			text="no" 
+			>
+
+			<fileset dir="${src}">
+				<include name="**/*.hbm.xml"/>
+			</fileset>
+		</schemaexport>
+	</target>
+
+	
+	
+	<target name="compileClient">
+		<javac srcdir="." destdir="." classpathref="hibernate.classpath"/>
+	</target>
+	
+	<target name="runClient" depends="compileClient">
+		<java fork="true" classpathref="hibernate.classpath" classname="MyHibernateClient"/>
+	</target>
+</project>

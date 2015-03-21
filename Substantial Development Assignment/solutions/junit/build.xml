@@ -1,0 +1,25 @@
+<project name="junit" default="test">
+	<target name="test">
+		<junit printsummary="true">
+			<formatter type="plain" usefile="false"/>
+		<test name="StringTesterWithFixtures"/>			
+		</junit>
+	</target>
+	
+	<target name="createXML">
+		<junit printsummary="true">
+			<formatter type="xml" usefile="true"/>
+		<test name="StringTesterWithFixtures"/>			
+		</junit>
+	</target>
+
+	<target name="createReport" depends="createXML">
+		<junitreport todir="./report">
+			<fileset dir=".">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report format="frames" todir="./report/html"/>
+		</junitreport>
+	</target>
+	
+	</project>

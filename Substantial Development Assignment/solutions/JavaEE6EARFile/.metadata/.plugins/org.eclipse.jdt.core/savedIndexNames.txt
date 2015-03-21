@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+/Users/nicktodd/Dropbox/Conygre/conygreJEE/solutions/JavaEE6EARFile/.metadata/.plugins/org.eclipse.jdt.core
+947281069.index
+450555687.index
+1384487945.index
+765977872.index
+3954040986.index
+1448009225.index
+272178059.index
+2689349500.index
+156905802.index
