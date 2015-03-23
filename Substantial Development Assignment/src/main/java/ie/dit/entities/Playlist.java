@@ -30,9 +30,18 @@ public class Playlist implements Serializable{
 	//@JoinColumn(name="t_id")
 	private List<Track> listOfTracks = new ArrayList<Track>();
 	
-	@ManyToOne
-	private User userPlaylists;
+	@ManyToOne(fetch=FetchType.LAZY)
+	  @JoinColumn(name="id")
+	//@JoinColumn(name="p_id")
+	private Library userPlaylists;
 	
+	
+	public Library getUserPlaylists() {
+		return userPlaylists;
+	}
+	public void setUserPlaylists(Library userPlaylists) {
+		this.userPlaylists = userPlaylists;
+	}
 	//Methods
 	public String getPlaylistname() {
 		return playlistname;

@@ -1,11 +1,15 @@
 package ie.dit.entities;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "tracks")
@@ -66,14 +70,27 @@ public class Track implements Serializable {
 	@Column(name = "t_libfoldercount")
 	private int tracklibfoldercount;
 
-	
-	  
-	@ManyToOne
+	@ManyToOne(fetch=FetchType.LAZY)
+	  @JoinColumn(name="p_id")
 	//@JoinColumn(name="p_id")
 	private Playlist playlist;
+	  
+	public Playlist getPlaylist() {
+		return playlist;
+	}
+
+
+
+	public void setPlaylist(Playlist playlist) {
+		this.playlist = playlist;
+	}
+
+	@ManyToOne(fetch=FetchType.LAZY)
+	  @JoinColumn(name="id")
+	//@JoinColumn(name="p_id")
+	private Library userTracks;
 	
-	@ManyToOne
-	private User userTracks;
+	
 	
 	
 	
@@ -81,13 +98,27 @@ public class Track implements Serializable {
 	public Track() {
 	}
 
-	public Playlist getPlaylist() {
-		return playlist;
+	
+
+
+
+
+
+	
+
+
+
+	public Library getUserTracks() {
+		return userTracks;
 	}
 
-	public void setPlaylist(Playlist playlist) {
-		this.playlist = playlist;
+
+
+	public void setUserTracks(Library userTracks) {
+		this.userTracks = userTracks;
 	}
+
+
 
 	public Track(int trackid, String trackname, String trackartist,
 			String trackalbum) {

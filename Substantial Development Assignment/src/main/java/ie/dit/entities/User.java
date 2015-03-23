@@ -1,13 +1,14 @@
 package ie.dit.entities;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -20,12 +21,19 @@ public class User implements Serializable {
 	private String username;
 	@Column(name = "password")
 	private String password;
+	@OneToOne(fetch=FetchType.LAZY)
+	  @JoinColumn(name="id")
+	  private Library lib;
 
-	@OneToMany(mappedBy = "userTracks")
-	private List<Track> listOfUserTracks = new ArrayList<Track>();
+	
 
-	@OneToMany(mappedBy = "userPlaylists")
-	private List<Playlist> listOfUsersPlaylists = new ArrayList<Playlist>();
+	public Library getLib() {
+		return lib;
+	}
+
+	public void setLib(Library lib) {
+		this.lib = lib;
+	}
 
 	public User() {
 	}
@@ -52,20 +60,6 @@ public class User implements Serializable {
 		this.password = password;
 	}
 
-	public List<Track> getListOfUserTracks() {
-		return listOfUserTracks;
-	}
-
-	public void setListOfUserTracks(List<Track> listOfUserTracks) {
-		this.listOfUserTracks = listOfUserTracks;
-	}
-
-	public List<Playlist> getListOfUsersPlaylists() {
-		return listOfUsersPlaylists;
-	}
-
-	public void setListOfUsersPlaylists(List<Playlist> listOfUsersPlaylists) {
-		this.listOfUsersPlaylists = listOfUsersPlaylists;
-	}
+	
 
 }
