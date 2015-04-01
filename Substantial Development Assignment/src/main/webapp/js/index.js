@@ -20,7 +20,7 @@ $('#newUser').click(function() {
 
                 //$("#error").text("User added ");
                 alert("User added");
-               window.location.href="http://localhost:8080/HibernateTut-0.0.1-SNAPSHOT/index.html";
+               window.location.href="http://localhost:8080/HibernateTut-0.0.1-SNAPSHOT/import.html";
             },
             error: function() {
 

@@ -23,16 +23,15 @@ public class UserDAOImpl implements UserDAO {
 		return q.getResultList();
 	}
 	
-	public User addUser(String email,String password) {
 	
+	public User addUser(String email, String password) {
+		// TODO Auto-generated method stub
 		User u = new User(email,password);
 		em.persist(u);
-		//em.close();
-		//em.flush();
 		
-
 		return u;
-		
 	}
+
+	
 
 }

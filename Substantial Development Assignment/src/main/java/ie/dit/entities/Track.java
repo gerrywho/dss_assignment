@@ -1,131 +1,92 @@
 package ie.dit.entities;
 
 import java.io.Serializable;
-import java.util.Date;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
+
+import org.codehaus.jackson.annotate.JsonBackReference;
 
 @Entity
 @Table(name = "tracks")
-public class Track implements Serializable {
+public class Track  {
 
 	// Instance variables
 	@Id
 	@Column(name = "t_id")
 	private int trackid;
-	@Column(name = "t_name")
 	private String trackname;
-	@Column(name = "t_artist")
 	private String trackartist;
-	@Column(name = "t_album")
 	private String trackalbum;
-	@Column(name = "t_kind")
-	private String trackkind;
-	@Column(name = "t_size")
-	private int tracksize;
-	@Column(name = "t_total_time")
-	private int tracktime;
-	@Column(name = "t_number")
-	private int tracknumber;
-	@Column(name = "t_count")
-	private int trackcount;
-	@Column(name = "t_modified")
-	private Date trackmodified;
-	@Column(name = "t_added")
-	private Date trackadded;
-	@Column(name = "t_bitrate")
-	private int trackbitrate;
-	@Column(name = "t_samplerate")
-	private int tracksamplerate;
-	@Column(name = "t_volume")
-	private int trackvolume;
-	@Column(name = "t_playcount")
-	private int trackplaycount;
-	@Column(name = "t_playdate")
-	private int trackplaydate;
-	@Column(name = "t_playdateUTC")
-	private Date trackplaydateUTC;
-	@Column(name = "t_skipdate")
-	private Date trackskipdate;
-	@Column(name = "t_sortalbum")
-	private String tracksortalbum;
-	@Column(name = "t_sortartist")
-	private String tracksortartist;
-	@Column(name = "t_sortname")
-	private String tracksortname;
-	@Column(name = "t_persistID")
 	private String trackpersistID;
-	@Column(name = "t_type")
-	private String tracktype;
-	@Column(name = "t_location")
-	private String tracklocation;
-	@Column(name = "t_filefoldercount")
-	private int trackfilefoldercount;
-	@Column(name = "t_libfoldercount")
-	private int tracklibfoldercount;
+	
 
-	@ManyToOne(fetch=FetchType.LAZY)
-	  @JoinColumn(name="p_id")
-	//@JoinColumn(name="p_id")
-	private Playlist playlist;
-	  
-	public Playlist getPlaylist() {
-		return playlist;
+	@ManyToMany(mappedBy="tracks")
+	@JsonBackReference(value="playlist-tracks")
+	private Collection<Playlist> playlists=new ArrayList();
+	
+	
+	
+	@ManyToMany(mappedBy="tracks")
+	@JsonBackReference(value="library-tracks")
+	private Collection<Library> libraries=new ArrayList();
+	
+
+	
+
+
+
+	
+
+
+
+	public Collection<Playlist> getPlaylists() {
+		return playlists;
 	}
 
 
 
-	public void setPlaylist(Playlist playlist) {
-		this.playlist = playlist;
+	public void setPlaylists(Collection<Playlist> playlists) {
+		this.playlists = playlists;
 	}
 
-	@ManyToOne(fetch=FetchType.LAZY)
-	  @JoinColumn(name="id")
-	//@JoinColumn(name="p_id")
-	private Library userTracks;
-	
-	
-	
-	
-	
-	//Constructors
+
+
+	public Collection<Library> getLibraries() {
+		return libraries;
+	}
+
+
+
+	public void setLibraries(Collection<Library> libraries) {
+		this.libraries = libraries;
+	}
+
+
+
+	// Constructors
 	public Track() {
-	}
-
-	
-
-
-
-
-
-	
-
-
-
-	public Library getUserTracks() {
-		return userTracks;
-	}
-
-
-
-	public void setUserTracks(Library userTracks) {
-		this.userTracks = userTracks;
 	}
 
 
 
 	public Track(int trackid, String trackname, String trackartist,
-			String trackalbum) {
-
+			String trackalbum, String trackpersistID) {
+		this.trackid=trackid;
+		this.trackname=trackname;
+		this.trackartist=trackartist;
+		this.trackalbum=trackalbum;
+		this.trackpersistID=this.trackpersistID;
 	}
 
-	//Methods
+	// Methods
 	public int getTrackid() {
 		return trackid;
 	}
@@ -158,141 +119,8 @@ public class Track implements Serializable {
 		this.trackalbum = trackalbum;
 	}
 
-	public String getTrackkind() {
-		return trackkind;
-	}
-
-	public void setTrackkind(String trackkind) {
-		this.trackkind = trackkind;
-	}
-
-	public int getTracksize() {
-		return tracksize;
-	}
-
-	public void setTracksize(int tracksize) {
-		this.tracksize = tracksize;
-	}
-
-	public int getTracktime() {
-		return tracktime;
-	}
-
-	public void setTracktime(int tracktime) {
-		this.tracktime = tracktime;
-	}
-
-	public int getTracknumber() {
-		return tracknumber;
-	}
-
-	public void setTracknumber(int tracknumber) {
-		this.tracknumber = tracknumber;
-	}
-
-	public int getTrackcount() {
-		return trackcount;
-	}
-
-	public void setTrackcount(int trackcount) {
-		this.trackcount = trackcount;
-	}
-
-	public Date getTrackmodified() {
-		return trackmodified;
-	}
-
-	public void setTrackmodified(Date trackmodified) {
-		this.trackmodified = trackmodified;
-	}
-
-	public Date getTrackadded() {
-		return trackadded;
-	}
-
-	public void setTrackadded(Date trackadded) {
-		this.trackadded = trackadded;
-	}
-
-	public int getTrackbitrate() {
-		return trackbitrate;
-	}
-
-	public void setTrackbitrate(int trackbitrate) {
-		this.trackbitrate = trackbitrate;
-	}
-
-	public int getTracksamplerate() {
-		return tracksamplerate;
-	}
-
-	public void setTracksamplerate(int tracksamplerate) {
-		this.tracksamplerate = tracksamplerate;
-	}
-
-	public int getTrackvolume() {
-		return trackvolume;
-	}
-
-	public void setTrackvolume(int trackvolume) {
-		this.trackvolume = trackvolume;
-	}
-
-	public int getTrackplaycount() {
-		return trackplaycount;
-	}
-
-	public void setTrackplaycount(int trackplaycount) {
-		this.trackplaycount = trackplaycount;
-	}
-
-	public int getTrackplaydate() {
-		return trackplaydate;
-	}
-
-	public void setTrackplaydate(int trackplaydate) {
-		this.trackplaydate = trackplaydate;
-	}
-
-	public Date getTrackplaydateUTC() {
-		return trackplaydateUTC;
-	}
-
-	public void setTrackplaydateUTC(Date trackplaydateUTC) {
-		this.trackplaydateUTC = trackplaydateUTC;
-	}
-
-	public Date getTrackskipdate() {
-		return trackskipdate;
-	}
-
-	public void setTrackskipdate(Date trackskipdate) {
-		this.trackskipdate = trackskipdate;
-	}
-
-	public String getTracksortalbum() {
-		return tracksortalbum;
-	}
-
-	public void setTracksortalbum(String tracksortalbum) {
-		this.tracksortalbum = tracksortalbum;
-	}
-
-	public String getTracksortartist() {
-		return tracksortartist;
-	}
-
-	public void setTracksortartist(String tracksortartist) {
-		this.tracksortartist = tracksortartist;
-	}
-
-	public String getTracksortname() {
-		return tracksortname;
-	}
-
-	public void setTracksortname(String tracksortname) {
-		this.tracksortname = tracksortname;
-	}
+	
+	
 
 	public String getTrackpersistID() {
 		return trackpersistID;
@@ -302,36 +130,7 @@ public class Track implements Serializable {
 		this.trackpersistID = trackpersistID;
 	}
 
-	public String getTracktype() {
-		return tracktype;
-	}
+	
 
-	public void setTracktype(String tracktype) {
-		this.tracktype = tracktype;
-	}
-
-	public String getTracklocation() {
-		return tracklocation;
-	}
-
-	public void setTracklocation(String tracklocation) {
-		this.tracklocation = tracklocation;
-	}
-
-	public int getTrackfilefoldercount() {
-		return trackfilefoldercount;
-	}
-
-	public void setTrackfilefoldercount(int trackfilefoldercount) {
-		this.trackfilefoldercount = trackfilefoldercount;
-	}
-
-	public int getTracklibfoldercount() {
-		return tracklibfoldercount;
-	}
-
-	public void setTracklibfoldercount(int tracklibfoldercount) {
-		this.tracklibfoldercount = tracklibfoldercount;
-	}
-
+	
 }

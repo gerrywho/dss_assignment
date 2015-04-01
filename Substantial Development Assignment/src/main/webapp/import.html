@@ -1,8 +1,10 @@
 <html>
 <body>
 <h1>IMPORT PAGE</h1>
+<form id='registrationForm' action='http://localhost:8080/HibernateTut-0.0.1-SNAPSHOT/rest/import/parse' method='post' enctype='multipart/form-data'>
 <label for="filepath">Enter the file path for you XML backup</label>
- <p><input type="text" name="filepath" id="filepath" value="" placeholder="Library Filepath"></p>
+ <p><input type="file" name="filepath" id="filepath" value="" placeholder="Library Filepath"></p>
  <p class="submit"><input type="submit" name="backup" id="backup" value="Backup Device"></p>
+ </form>
 </body>
 </html>

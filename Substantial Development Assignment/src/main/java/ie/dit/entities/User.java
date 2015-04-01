@@ -1,47 +1,45 @@
 package ie.dit.entities;
 
 import java.io.Serializable;
-import java.util.List;
+import java.util.ArrayList;
+import java.util.Collection;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
-import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "users")
-public class User implements Serializable {
+public class User  {
 
 	// Instance variables
 	@Id
-	@Column(name = "username")
+	@Column(name = "username" ,unique=true)
 	private String username;
-	@Column(name = "password")
 	private String password;
-	@OneToOne(fetch=FetchType.LAZY)
-	  @JoinColumn(name="id")
-	  private Library lib;
-
+	@OneToOne
+	private Library library;
+	
 	
 
-	public Library getLib() {
-		return lib;
-	}
-
-	public void setLib(Library lib) {
-		this.lib = lib;
-	}
-
 	public User() {
+	}
+
+	public Library getLibrary() {
+		return library;
+	}
+
+	public void setLibrary(Library library) {
+		this.library = library;
 	}
 
 	public User(String email, String password2) {
 		// TODO Auto-generated constructor stub
 		username = email;
 		password = password2;
+
 	}
 
 	public String getUsername() {
